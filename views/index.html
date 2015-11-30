@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SAPHIRE</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="stylesheets/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylesheets/saphire.css" type="text/css">
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Navigation Bar -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">SAPHIRE</a>
+            </div>
+
+            <!-- Links to different part of the oage-->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#simulators">Simulators</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#microwave">Microwave</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#washer">Washer</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>SAPHIRE</h1>
+                <hr>
+                <p>Your Home For Smart Appliances</p>
+                <a href="#simulators" class="btn btn-primary btn-xl page-scroll">Pick Simulation</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg_simulation" id="simulators">
+	 <body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-12 col-lg-6">
+				<div id="wrapper">
+					<div id="simulatorInfo">
+						<h2>Simulator Information</h2>
+						<p>
+							<strong>Name:</strong>
+							<span id='simulatorInfoName'></span>
+							<br>
+							<strong>Properties:</strong>
+							<span id='simulatorInfoProp'></span>
+							<br>
+							<strong>Operataion:</strong>
+							<span id='simulatorInfoOp'></span>
+							<br>
+							<strong>Location:</strong>
+							<span id='simulatorInfoLoc'></span>
+						</p>
+						<h2>Add Simulator</h2>
+					</div>
+					<div id="addSimulator">
+						<fieldset>
+						<input id="inputSimulatorName" type="text" placeholder="simulator name"/>
+						<br>
+						<input id="inputSimulatorProp" type="text" placeholder="simulator properties"/>
+						<br>
+						<input id="inputSimulatorOp" type="text" placeholder="simulator operations"/>
+						<br>
+						<input id="inputSimulatorLoc" type="text" placeholder="simulator location"/>
+						<br>
+						</fieldset>
+						<input type="button" id="button" value="Add Simulator">
+					</div>
+					<h2>Simulator List</h2>
+					<div id="simulatorList">
+						<table id="table">
+							<thead>
+							<th>Information</th>
+							<th>Simulate?</th>
+							<th>Remove?</th>
+							</thead>
+						<tbody id="tbody"></tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+    </section>
+
+    <section class="bg_microwave" id="microwave">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3 col-md-3 col-lg-3">
+					<img id="image" src="images/MicrowaveOff.jpg" />
+				</div>
+			</div>
+		</div>
+     
+    </section>
+
+    <section class="bg_washer" id="washer">
+       
+    </section>	
+	
+
+    <!-- jQuery -->
+    <script src="javascripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="javascripts/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="javascripts/jquery.easing.min.js"></script>
+    <script src="javascripts/jquery.fittext.js"></script>
+    <script src="javascripts/wow.min.js"></script>
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="javascripts/saphire.js"></script>
+
+</body>
+
+</html>
