@@ -48,12 +48,6 @@
                     <li>
                         <a class="page-scroll" href="#simulators">Simulators</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#microwave">Microwave</a>
-                    </li>
-					<li>
-                        <a class="page-scroll" href="#washer">Washer</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -67,7 +61,7 @@
                 <h1>SAPHIRE</h1>
                 <hr>
                 <p>Your Home For Smart Appliances</p>
-                <a href="#simulators" class="btn btn-primary btn-xl page-scroll">Pick Simulation</a>
+                <a href="#simulators" class="btn btn-primary btn-xl page-scroll">Go To Simulation</a>
             </div>
         </div>
     </header>
@@ -75,87 +69,20 @@
     <section class="bg_simulation" id="simulators">
 	 <body>
 	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-md-12 col-lg-6">
-				<div id="wrapper">
-					<div id="simulatorInfo">
-						<h2>Simulator Information</h2>
-						<p>
-							<strong>Name:</strong>
-							<span id='simulatorInfoName'></span>
-							<br>
-							<strong>Properties:</strong>
-							<span id='simulatorInfoProp'></span>
-							<br>
-							<strong>Operataion:</strong>
-							<span id='simulatorInfoOp'></span>
-							<br>
-							<strong>Location:</strong>
-							<span id='simulatorInfoLoc'></span>
-						</p>
-						<h2>Add Simulator</h2>
-					</div>
-					<div id="addSimulator">
-						<fieldset>
-						<input id="inputSimulatorName" type="text" placeholder="simulator name"/>
-						<br>
-						<input id="inputSimulatorProp" type="text" placeholder="simulator properties"/>
-						<br>
-						<input id="inputSimulatorOp" type="text" placeholder="simulator operations"/>
-						<br>
-						<input id="inputSimulatorLoc" type="text" placeholder="simulator location"/>
-						<br>
-						</fieldset>
-						<input type="button" id="button" value="Add Simulator">
-					</div>
-					<h2>Simulator List</h2>
-					<div id="simulatorList">
-						<table id="table">
-							<thead>
-							<th>Information</th>
-							<th>Simulate?</th>
-							<th>Remove?</th>
-							</thead>
-						<tbody id="tbody"></tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
+
     </section>
 
     <section class="bg_microwave" id="microwave">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-3 col-md-3 col-lg-3">		
-					<script> 
-						function turnOn(){
-							var img = document.getElementById("image");
-							img.src="images/MicrowaveOn.jpg";
-							return false;
-						}
-						function turnOff(){
-							var img = document.getElementById("image");
-							img.src="images/MicrowaveOff.jpg";
-							return false;
-						}
-					</script>
-					<body>
-						<img id="image" src="images/MicrowaveOff.jpg" />
-						<br><br><br>
-						<button id="clickme" onclick="turnOn();">Turn On Microwave</button>
-						<button id="clickme" onclick="turnOff();">Turn Off Microwave</button>
-					</body>
-				</div>
-			</div>
-		</div>
-     
+
     </section>
 
     <section class="bg_washer" id="washer">
        
     </section>	
+	
+	<section class="bg_refridgerator" id="refridgerator">
+	
+	</section
 	
 
     <!-- jQuery -->
