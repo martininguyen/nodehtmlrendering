@@ -51,6 +51,17 @@ p {
     background-color: #000000;
 }
 
+.TOP{
+	background-color: #000000;
+	height:250px;
+
+}
+.BOT{
+	background-color:#000000;
+	height:250px;
+
+}
+
 .bg_microwave {
     background-color: #111111;
 }
